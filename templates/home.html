@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brain Tumor Detection </title>
+    <style>
+      h1 {
+        font-size:40px;
+        font-family:Roboto;
+        font-weight:normal;        
+        color: rgb(100, 100, 100);
+        text-align:center;
+      }
+      #banner {
+      }
+      h2 {
+        font-family:Robot;
+        font-size:32px;
+        color:rgb(100,100,100);
+        text-align:center;
+        font-weight:normal;
+      }
+      p {
+        font-family:Robot;
+        color:rgb(80,80,80);
+      }
+
+      #container{
+        max-width: 720px;
+        margin: 0 auto;        
+      }
+    #canvas {
+        background-color: #f1f1f1;
+      }
+      img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}      
+      </style>
+      </head>  
+<body>
+<div id="container">
+<h1>Brain Tumor Detection</h1>
+  <h2>About Brain Tumor </h2>
+  <p>
+A brain tumor is an abnormal growth of cells within the brain or its surrounding tissue. There are two main types of brain tumors: primary and secondary.
+Some common types of primary brain tumors include:
+<ol>
+<li>Glioma Tumor- A glioma tumor is a type of brain tumor that originates from glial cells in the brain or spine.</li>
+<li>Malignant Tumor- A malignant tumor is a type of cancerous growth that has the potential to invade nearby tissues and spread to other parts of the body.</li>
+<li>Pituitary Tumor - A pituitary tumor is an abnormal growth in the pituitary gland that can cause hormonal imbalances and other health problems. </li>  
+</ol>
+  
+  </p>
+
+  
+  <img id="banner" src="https://braintumordetectionwebsite1.saurabhsharma72.repl.co/static/germ-cell-tumor-second-look-looping.gif" height="320" class="center"> 
+
+  <h2>Upload MRI Here</h2>
+  <div style="text-align:center;">
+  <form enctype="multipart/form-data" method="post">
+  <input type="file" name="image" id="image" accept="image/*">
+  <button type="button" onclick="runFunction()">Submit</button>
+  <p id="result"</p>
+      <script>
+      function runFunction() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("result").innerHTML = this.responseText;
+          }
+        };
+        var formData = new FormData();
+        formData.append('image', document.getElementById('image').files[0]);
+        xhttp.open("POST", "/execute_python_function", true);
+        xhttp.send(formData);
+      }
+    </script>
+ 
+</div>
+</div>
+</body>  
+</html>
