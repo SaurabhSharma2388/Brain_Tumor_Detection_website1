@@ -11,8 +11,8 @@ The dataset contains 4 folders: yes and no which contains 400 Brain MRI Images. 
 # Accuracy Score
 Now, the best model (the one with the best validation accuracy) detects brain tumor with:
 
-88.7% accuracy on the test set.
-0.88 f1 score on the test set.
+95.36% with logistic Regression accuracy on the test set.
+93.73% with Support Vector Machine score on the test set.
 These resutls are very good considering that the data is balanced.
 
 Performance table of the best model:
