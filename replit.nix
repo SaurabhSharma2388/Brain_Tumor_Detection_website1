@@ -1,5 +1,8 @@
 { pkgs }: {
   deps = [
+    pkgs.docker
+    pkgs.root
+    pkgs.sudo
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
