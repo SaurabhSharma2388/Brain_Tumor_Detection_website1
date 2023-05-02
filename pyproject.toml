@@ -7,6 +7,11 @@ authors = ["Replit user <<>>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Flask = "^2.3.1"
+opencv-python = "^4.7.0"
+pandas = "^2.0.1"
+scikit-learn = "^1.2.2"
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
 
 [tool.poetry.dev-dependencies]
 
