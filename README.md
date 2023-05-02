@@ -1,3 +1,4 @@
+![accuracy_score](https://user-images.githubusercontent.com/128196839/235717402-f48f8e14-d280-484e-bf54-bb0d675a08f4.jpg)
 # Brain Tumor Detection 
 
 
