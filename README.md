@@ -9,9 +9,9 @@ The dataset contains 4 folders: yes and no which contains 400 Brain MRI Images. 
 About the Brain Tumor
 A brain tumor is an abnormal growth of cells within the brain or its surrounding tissue. There are two main types of brain tumors: primary and secondary. Some common types of primary brain tumors include:
 
-1 Glioma Tumor- A glioma tumor is a type of brain tumor that originates from glial cells in the brain or spine.
-2 Malignant Tumor- A malignant tumor is a type of cancerous growth that has the potential to invade nearby tissues and spread to other parts of the body.
-3 Pituitary Tumor - A pituitary tumor is an abnormal growth in the pituitary gland that can cause hormonal imbalances and other health problems.
+### 1 Glioma Tumor- A glioma tumor is a type of brain tumor that originates from glial cells in the brain or spine.
+### 2 Malignant Tumor- A malignant tumor is a type of cancerous growth that has the potential to invade nearby tissues and spread to other parts of the body.
+### 3 Pituitary Tumor - A pituitary tumor is an abnormal growth in the pituitary gland that can cause hormonal imbalances and other health problems.
 
 # Accuracy Score
 Now, the best model (the one with the best validation accuracy) detects brain tumor with:
