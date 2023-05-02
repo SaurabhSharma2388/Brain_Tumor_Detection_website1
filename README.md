@@ -8,7 +8,7 @@ The dataset contains 4 folders: yes and no which contains 400 Brain MRI Images. 
 
 
 
-#Calculate accuracy scores
+# Calculate accuracy scores
 
 
 
