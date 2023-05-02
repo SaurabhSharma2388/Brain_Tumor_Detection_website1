@@ -25,5 +25,19 @@ These resutls are very good considering that the data is balanced.
 
 Performance table of the best model:
 
-
 ![accuracy_score](https://user-images.githubusercontent.com/128196839/235717402-f48f8e14-d280-484e-bf54-bb0d675a08f4.jpg)
+
+
+# Final Output
+
+
+![brainwebsite](https://user-images.githubusercontent.com/128196839/235728416-fcc2b8cf-de8c-4a15-8b93-a6a31eee88f7.jpg)
+
+
+In the model we selected the one image for tumor detection its showing the below output:
+
+![website](https://user-images.githubusercontent.com/128196839/235728771-865c8851-0b41-4040-8f7c-56b0ca815e92.jpg)
+
+
+
+
